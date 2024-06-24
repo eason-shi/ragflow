@@ -41,15 +41,15 @@ const RightToolBar = () => {
   return (
     <div className={styled.toolbarWrapper}>
       <Space wrap size={16}>
-        <Dropdown menu={{ items, onClick: handleItemClick }} placement="bottom">
-          <Space className={styled.language}>
-            <b>{t(camelCase(language))}</b>
-            <DownOutlined />
-          </Space>
-        </Dropdown>
-        <Circle>
-          <GithubOutlined onClick={handleGithubCLick} />
-        </Circle>
+        {/*<Dropdown menu={{ items, onClick: handleItemClick }} placement="bottom">*/}
+        {/*  <Space className={styled.language}>*/}
+        {/*    <b>{t(camelCase(language))}</b>*/}
+        {/*    <DownOutlined />*/}
+        {/*  </Space>*/}
+        {/*</Dropdown>*/}
+        {/*<Circle>*/}
+        {/*  <GithubOutlined onClick={handleGithubCLick} />*/}
+        {/*</Circle>*/}
         {/* <Circle>
           <MonIcon />
         </Circle> */}

@@ -126,14 +126,6 @@ const Login = () => {
               </Form.Item>
             )}
             <div>
-              {title === 'login' && (
-                <div>
-                  {t('signInTip')}
-                  <Button type="link" onClick={changeTitle}>
-                    {t('signUp')}
-                  </Button>
-                </div>
-              )}
               {title === 'register' && (
                 <div>
                   {t('signUpTip')}
